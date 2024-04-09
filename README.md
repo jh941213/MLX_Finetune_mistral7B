@@ -15,10 +15,21 @@
 
 필요한 Python 패키지를 설치하기 위해, 아래 단계를 따르세요:
 
+[MLX 프레임워크 설치](https://github.com/ml-explore)
+```bash
+pip install mlx
+```
+mlx-examples git clone 해오기
+```bash
+git clone https://github.com/ml-explore/mlx-examples
+```
 1. `mlx-examples` 디렉토리로 이동:
 
 ```bash
-pip install mlx
-git clone https://github.com/ml-explore/mlx-examples
 cd mlx-examples
+```
+2. `LoRA` 디렉토리로 이동후 필요한 라이브러리 설치 :
+```bash
+cd lora
+pip install -r requirements.txt
 ```
