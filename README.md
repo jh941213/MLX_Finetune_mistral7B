@@ -43,7 +43,7 @@ pip install -r requirements.txt
 - Hugging Face / AI HuB 를 통해 원하는 Downstream task 를 받아옵니다.
 - `train.ipynb` 에 데이터 전처리 코드가 있습니다.
   
-##
+## 학습
 
 데이터가 준비가 되었다면 터미널창을 키고 파이썬 파일을 통해 `lora.py` 에서 학습 파라미터를 확인 후 넣어주고, 본인의 맥 메모리 환경에 따라 Batch size를 조절해서 학습을 시키면 됩니다.
 
@@ -61,3 +61,7 @@ python lora.py \
 학습이 시작되면, 아래와 같이 Iter 를 통해 확인 할 수 있습니다. 데이터의 length 길이를 맞춰서 적절한 데이터를 사용해주세요.
 
 ![스크린샷 2024-04-09 오후 5 14 42](https://github.com/jh941213/MLX_Finetune_mistral7B/assets/112835087/e36910f7-f9f4-4cae-81dc-d4e58cd6c1ef)
+
+## reference
+
+https://apeatling.com/articles/part-4-testing-and-interacting-with-your-fine-tuned-llm/
