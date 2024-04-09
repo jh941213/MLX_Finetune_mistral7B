@@ -40,6 +40,10 @@ pip install -r requirements.txt
 ## 데이터셋 준비
 
 학습(`train.jsonl`), 검증(`valid.jsonl`), 테스트(`test.jsonl`) 데이터셋은 data 폴더 내에 위치해야 합니다. 각 파일은 유효한 JSONL 형식을 따라야 하며, 각 라인은 JSON 객체를 포함해야 합니다.
+
 - Hugging Face / AI HuB 를 통해 원하는 Downstream task 를 받아옵니다.
 - `train.ipynb` 에 데이터 전처리 코드가 있습니다.
-  
+데이터형식은 아래와 같습니다.
+```bash
+{"text":"<s>[INST] Instruction[/INST] Model answer</s>[INST] Follow-up instruction[/INST]"}
+```  
