@@ -56,7 +56,7 @@ python lora.py \
   --lora-layers 4 \
   --iters 1000 \
   --adapter-file save_file 
-  —seed 6974
+  —seed 123
 ```
 학습이 시작되면, 아래와 같이 Iter 를 통해 확인 할 수 있습니다. 데이터의 length 길이를 맞춰서 적절한 데이터를 사용해주세요.
 
